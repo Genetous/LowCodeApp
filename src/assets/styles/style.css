@@ -1,0 +1,232 @@
+.my-appcard{
+    display:flex;
+    justify-content: center;
+
+    flex-direction: column;
+}
+
+.my-appcard-header{
+    display:flex;
+    align-items: center;
+    margin-bottom:25px;
+}
+.my-appcard-header > img{
+    width:125px;
+}
+
+.my-appcard-header > h1{
+    font-size:35px;
+    padding:0;
+    margin:0;
+    margin-left:15px;
+}
+
+.my-appcard-date{
+    font-size:12px;
+    color:rgba(172, 172, 172);
+}
+.my-list-group-item{
+    cursor:pointer!important;
+}
+
+.my-list-header{
+    width:100%;
+    height:50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:35px;
+    font-weight:bold;
+    color:#818CF8;
+    margin:10px 0px 10px 0px;
+    border:none!important;
+}
+
+.my-list-group{
+    border-top:none !important;
+    padding:0px 40px 0px 40px;
+    padding-bottom:30px;
+}
+
+.my-delete-list-group-item{
+    background-color: #1D1F21;
+    border:none;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0;
+    margin-bottom:10px;
+    border-radius:3px!important;
+}
+.my-delete-list-group-item > p{
+    height:100%;
+    margin:0;
+}
+
+/*POPUP*/
+.my-popup > div{
+    background-color: #ffffff!important;
+}
+.my-popup-header > h5{
+    font-size:25px;
+}
+
+.my-popup-footer{
+    border:none;
+}
+.my-popup-yesno-buttons > button{
+    margin-right:10px;
+}
+.my-active-collection{
+    background-color: #3f4250;
+}
+/*POPUP*/
+
+/*DRAG & DROP*/
+.my-delete-draggable-item{
+    position:absolute;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:25px;
+    margin:0;
+    height:25px;
+    border-radius:25px;
+    background-color: red;
+    cursor:pointer;
+    right:0;
+}
+.my-delete-draggable-item{
+    padding:0;
+}
+/*DRAG & DROP*/
+
+/*JSON EDITOR*/
+.json-editor-container{
+    width:100%;
+    height:100%;
+    overflow:auto;
+}
+.json-body-collapsed{
+    display:none;
+}
+.json-editor-body{
+
+}
+.json-editor-card-body{
+    padding:0;
+    margin:0;
+}
+.json-editor-array-body > ul{
+    margin:0;
+    padding:0;
+}
+.json-editor-passive{
+    display:none;
+}
+
+.je-primary,
+.je-secondary,
+.je-array-primary,
+.je-array-secondary{
+    margin:5px 10px 5px 10px;
+    padding:10px 5px 10px 5px;
+}
+
+.je-primary{
+    background-color:#191c24;
+}
+.je-secondary{
+    background-color:#32384b;
+}
+.je-array-primary{
+    background-color:#191c24;
+}
+.je-array-secondary{
+    background-color:#32384b;
+}
+/*JSON EDITOR*/
+
+.send-mobile-notification-drop{
+    color:black!important;
+}
+
+.send-mobile-notification-message{
+    color:white!important;
+}
+
+#fr-logo{
+    display:none!important;
+}
+
+/*add (Collection)*/
+.add-default-checkbox{
+    width:25px;
+    height:25px;
+}
+/*add (Collection)*/
+
+/*TOAST*/
+#toast-message{
+    position:absolute;
+    z-index:10000000;
+    bottom:0;
+    right:0;
+    margin-right:50px;
+    margin-bottom:50px;    
+    padding:10px 25px 10px 25px;
+    border-radius:10px;
+    max-width:340px;
+    word-wrap:break-word;
+}
+/*TOAST*/
+
+/*GENERAL*/
+.custom-file-label{
+    width:100%;
+    margin:auto;
+    border:none!important;
+    position:relative;
+}
+#customFileLang{
+    position:absolute;
+}
+code {
+    display: block;
+    white-space: pre-wrap   
+}
+.code_void{
+    color: rgb(192, 66, 20);
+}
+.code_void_name{
+    color: rgb(177, 130, 43);
+}
+
+.code_back{
+    color: white;
+    background-color: black;
+}
+.import{
+    color: rgb(14, 14, 253);
+}
+.override{
+    color: darkgoldenrod;
+}
+.property{
+    color: darkorchid;
+}
+.await{
+    color: rgb(161, 12, 57);
+}
+.str_text{
+    color: rgb(17, 184, 17);
+}
+.ios_red{
+    color: #ff7b72;
+}
+.ios_blue{
+    color: #79c0ff;
+}
+.ios_purple{
+    color: #d2a8ff;
+}
